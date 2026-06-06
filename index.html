@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hacktivism</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+    <style>
+        :root {}
+
+        .custom-full-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        @media (min-width: 1024px) {
+            .reverse-row-column {
+                flex-direction: row-reverse;
+            }
+        }
+    </style>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Add a click event on each of them
+            $navbarBurgers.forEach(el => {
+                el.addEventListener('click', () => {
+
+                    // Get the target from the "data-target" attribute
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+
+                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+
+                });
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <p class="title has-text-centered">
+                HACKTIVISM
+            </p>
+        </div>
+    </section>
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item has-text-primary has-text-weight-bold is-size-5" href="#">
+                HACKTIVISM
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navMenu" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="#inicio">Inicio</a>
+                <a class="navbar-item" href="#definicion">Definición</a>
+                <a class="navbar-item" href="#tipos">Tipos</a>
+                <a class="navbar-item" href="#ejemplos">Ejemplos</a>
+                <a class="navbar-item" href="#bibliografia">Bibliografía</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="hero is-dark is-medium" id="inicio">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered">
+
+                    <div class="column is-5">
+                        <figure class="image is-4by3">
+                            <img class="custom-full-image" src="hacktivismImagen.png" alt="Hacktivismo"
+                                style="object-fit: contain; background:#111; padding: 2rem;">
+                        </figure>
+                    </div>
+
+                    <div class="column is-7" id="definicion">
+                        <p class="title is-2 has-text-primary">¿Qué es el Hacktivismo?</p>
+                        <p class="subtitle is-5 has-text-grey-light mt-4">
+                            El hacktivismo ocurre cuando los activistas políticos o sociales utilizan tecnología
+                            informática
+                            para hacer una declaración que respalda una de sus causas. En la mayoría de los casos se
+                            enfoca
+                            en objetivos gubernamentales o corporativos, pero puede incluir cualquier institución
+                            significativa.
+                            <br><br>
+                            "Hacktivism" es la combinación de hacking
+                            y activism.
+                        </p>
+                        <div class="tags">
+                            <span class="tag is-dark is-medium">Ciberseguridad</span>
+                            <span class="tag is-dark is-medium">Activismo Digital</span>
+                            <span class="tag is-dark is-medium">Fortinet</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section has-background-black-bis" id="ejemplos">
+        <div class="container">
+
+            <div class="has-text-centered mb-6">
+                <p class="title is-3 has-text-white">Conceptos Clave</p>
+                <p class="subtitle is-6 has-text-grey">Información basada en Fortinet Cyber Glossary</p>
+            </div>
+
+            <div class="columns is-multiline">
+
+                <div class="column is-12-mobile is-6-tablet is-4-desktop">
+                    <div class="card has-background-dark">
+                        <div class="card-content">
+                            <p class="title is-5 has-text-primary">Objetivos del Hacktivismo</p>
+                            <p class="content has-text-grey-light">
+                                Los hacktivistas apuntan principalmente a gobiernos y corporaciones que consideran
+                                corruptos o que violan derechos humanos. Sus acciones buscan visibilizar causas
+                                sociales y políticas ante la opinión pública global.
+                            </p>
+                        </div>
+                        <footer class="card-footer">
+                            <span class="card-footer-item has-text-primary has-text-weight-semibold">Activismo</span>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="column is-12-mobile is-6-tablet is-4-desktop">
+                    <div class="card has-background-dark">
+                        <div class="card-content">
+                            <p class="title is-5 has-text-primary">¿Es Ilegal?</p>
+                            <p class="content has-text-grey-light">
+                                La mayoría de actividades hacktivistas son ilegales, incluso si el activista
+                                considera sus acciones moralmente justificadas. El acceso no autorizado a sistemas
+                                está penado en casi todos los países.
+                            </p>
+                        </div>
+                        <footer class="card-footer">
+                            <span class="card-footer-item has-text-primary has-text-weight-semibold">Marco Legal</span>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="column is-12-mobile is-6-tablet is-4-desktop">
+                    <div class="card has-background-dark">
+                        <div class="card-content">
+                            <p class="title is-5 has-text-primary">Ataques DDoS</p>
+                            <p class="content has-text-grey-light">
+                                Los ataques de Denegación de Servicio Distribuido inundan un servidor con tráfico
+                                hasta dejarlo inaccesible. Son usados para silenciar sitios de organizaciones que
+                                el grupo considera dañinas para la sociedad.
+                            </p>
+                        </div>
+                        <footer class="card-footer">
+                            <span class="card-footer-item has-text-primary has-text-weight-semibold">Técnica</span>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="column is-12-mobile is-6-tablet is-4-desktop">
+                    <div class="card has-background-dark">
+                        <div class="card-content">
+                            <p class="title is-5 has-text-primary">Doxing</p>
+                            <p class="content has-text-grey-light">
+                                Consiste en investigar y publicar información privada de individuos en internet.
+                                Los hacktivistas lo usan para exponer a figuras que consideran responsables de
+                                injusticias, desde funcionarios corruptos hasta criminales.
+                            </p>
+                        </div>
+                        <footer class="card-footer">
+                            <span class="card-footer-item has-text-primary has-text-weight-semibold">Táctica</span>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="column is-12-mobile is-6-tablet is-4-desktop">
+                    <div class="card has-background-dark">
+                        <div class="card-content">
+                            <p class="title is-5 has-text-primary">Desfiguración Web</p>
+                            <p class="content has-text-grey-light">
+                                Implica alterar el contenido visual de un sitio web sin autorización para mostrar
+                                mensajes políticos. Es el equivalente digital del grafiti callejero y una de las
+                                formas más visibles de protesta hacktivista.
+                            </p>
+                        </div>
+                        <footer class="card-footer">
+                            <span class="card-footer-item has-text-primary has-text-weight-semibold">Táctica</span>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="column is-12-mobile is-6-tablet is-4-desktop">
+                    <div class="card has-background-dark">
+                        <div class="card-content">
+                            <p class="title is-5 has-text-primary">Anonymous</p>
+                            <p class="content has-text-grey-light">
+                                El grupo hacktivista más conocido del mundo. Sin liderazgo centralizado, opera
+                                como un colectivo descentralizado. Ha actuado contra gobiernos, corporaciones
+                                y grupos extremistas bajo el lema <em>"somos legión"</em>.
+                            </p>
+                        </div>
+                        <footer class="card-footer">
+                            <span class="card-footer-item has-text-primary has-text-weight-semibold">Grupo
+                                Notable</span>
+                        </footer>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section has-background-black" id="tipos">
+        <div class="container">
+
+            <div class="has-text-centered mb-6">
+                <p class="title is-3 has-text-white">Tipos de Hacktivismo</p>
+                <p class="subtitle is-6 has-text-grey">Clasificación según Fortinet</p>
+            </div>
+
+            <div class="columns is-multiline">
+
+                <div class="column is-12-mobile is-6-tablet is-4-desktop">
+                    <div class="notification is-dark">
+                        <p class="title is-6 has-text-primary">01 — Ataques DDoS</p>
+                        <p class="has-text-grey-light is-size-7">
+                            Sobrecargan servidores con tráfico masivo para dejarlos fuera de línea temporalmente.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="column is-12-mobile is-6-tablet is-4-desktop">
+                    <div class="notification is-dark">
+                        <p class="title is-6 has-text-primary">02 — Filtraciones</p>
+                        <p class="has-text-grey-light is-size-7">
+                            Acceso y publicación de documentos confidenciales para exponer corrupción o injusticias.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="column is-12-mobile is-6-tablet is-4-desktop">
+                    <div class="notification is-dark">
+                        <p class="title is-6 has-text-primary">03 — Desfiguración Web</p>
+                        <p class="has-text-grey-light is-size-7">
+                            Alteración de páginas web para mostrar mensajes o reclamos del grupo hacktivista.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="column is-12-mobile is-6-tablet is-4-desktop">
+                    <div class="notification is-dark">
+                        <p class="title is-6 has-text-primary">04 — Doxing</p>
+                        <p class="has-text-grey-light is-size-7">
+                            Publicación de datos personales de individuos considerados responsables de daños sociales.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="column is-12-mobile is-6-tablet is-4-desktop">
+                    <div class="notification is-dark">
+                        <p class="title is-6 has-text-primary">05 — Software Anónimo</p>
+                        <p class="has-text-grey-light is-size-7">
+                            Desarrollo de herramientas para evadir la censura gubernamental y proteger la privacidad.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="column is-12-mobile is-6-tablet is-4-desktop">
+                    <div class="notification is-dark">
+                        <p class="title is-6 has-text-primary">06 — Redirección de Sitios</p>
+                        <p class="has-text-grey-light is-size-7">
+                            Interceptar o redirigir el tráfico web hacia contenido alternativo con mensajes activistas.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer has-background-black-ter" id="bibliografia">
+        <div class="container">
+            <div class="columns">
+
+                <div class="column is-4">
+                    <p class="title is-5 has-text-primary">HACKTIVISM</p>
+                </div>
+
+
+                <div class="column is-4">
+                    <p class="heading has-text-grey-light mb-3">Bibliografía</p>
+                    <ul>
+                        <li>
+                            <a class="has-text-grey"
+                                href="https://www.fortinet.com/lat/resources/cyberglossary/what-is-hacktivism"
+                                target="_blank">
+                                Fortinet — ¿Qué es el Hacktivismo?
+                            </a>
+                        </li>
+                        <li>
+                            <a class="has-text-grey" href="https://bulma.io" target="_blank">
+                                Bulma CSS Framework
+                            </a>
+                        </li>
+                        <li>
+                            <a class="has-text-grey" href="https://jgthms.com" target="_blank">
+                                Jeremy Thomas — Autor de Bulma
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <hr class="has-background-grey-darker">
+
+            <div class="content has-text-centered">
+                <p class="has-text-grey is-size-7">
+                    <strong class="has-text-grey-light">Hacktivism || Jose Alvarenga || </strong>
+
+
+                    <a class="has-text-grey" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        target="_blank"></a>
+
+                    <strong>Bulma</strong> por <a class="has-text-grey" href="https://jgthms.com" target="_blank">Jeremy
+                        Thomas</a>
+                    licencia <a class="has-text-grey" href="https://opensource.org/license/mit" target="_blank">MIT</a>.
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
